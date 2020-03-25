@@ -455,5 +455,6 @@ def combine_images(generated_images):
 kernel_output = 140 
 dim_output = 140
 input_dim = 35
-train(10, 35, 35)
 num_epochs = 100000
+train(10, 35, 35)
+
