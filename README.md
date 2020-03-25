@@ -19,16 +19,16 @@ Also, make sure to install python-tk & graphviz: sudo apt-get install python-tk 
 
 </br>
 
-To prepare the data for training, separate the probe samples into train and test set.
-The gallery probe data folders should have all subject samples, with same names for subject folders.
+To prepare the data for training, separate the probe samples into train (15% samples per subject) and test set.
+The gallery and probe data folders should have all subject samples, with same names for subject folders. 
 
-Example, if subject 1 is named "001" in gallery folder, it should be named the same in probe folder too.
+For example, if subject 1 is named "001" in gallery folder, it should be named the same in probe (train) folder too.
 
-After data preparation, make changes to point to the correct gallery and probe npy files in "d2scgan_train.py" to run the code.
+After data preparation, make changes to point to the correct gallery and probe npy files in "d2scgan_train.py" to run the code. Follow the comments in the code.
 
-The code requires a machine with Nvidia Tesla (32GB) and >128GB RAM to train and test.
+To test the trained model, point the path to the test data npy file and run test.py.
 
-To test the trained model, point the path to the test data and run test.py.
+The code requires a machine with Nvidia Tesla (32GB) and >=128GB RAM to train and test.
 
 If you are using this code for your work, please cite:
 </br>
