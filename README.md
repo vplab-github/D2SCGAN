@@ -29,3 +29,13 @@ After data preparation, make changes to point to the correct gallery and probe n
 The code requires a machine with Nvidia Tesla (32GB) and >128GB RAM to train and test.
 
 To test the trained model, point the path to the test data and run test.py.
+
+If you are using this code for your work, please cite:
+
+@inproceedings{bhattacharjee2020d2sc,
+title={D2SC-GAN: Dual Deep-Shallow Channeled Generative Adversarial Network, for Resolving Low-resolution Faces for Recognition in Classroom scenarios},
+author={Bhattacharjee, Avishek and Das, Sukhendu},
+booktitle = { IEEE Transactions on Biometrics, Behavior, and Identity Science},
+month = {March},
+year = {2020}
+}
