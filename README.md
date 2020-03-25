@@ -16,3 +16,16 @@ scipy==1.2.1
 </br>
 
 Also, make sure to install python-tk & graphviz: sudo apt-get install python-tk graphviz
+
+</br>
+
+To prepare the data for training, separate the probe samples into train and test set.
+The gallery probe data folders should have all subject samples, with same names for subject folders.
+
+Example, if subject 1 is named "001" in gallery folder, it should be named the same in probe folder too.
+
+After data preparation, make changes to point to the correct gallery and probe npy files in "d2scgan_train.py" to run the code.
+
+The code requires a machine with Nvidia Tesla (32GB) and >128GB RAM to train and test.
+
+To test the trained model, point the path to the test data and run test.py.
