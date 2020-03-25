@@ -1,6 +1,6 @@
 ## Generic code for data preparation
 ## Requires the data to be partitioned into gallery and probe sets, subject wise (in folders), with same name
-## This only contains gallery and probe data only, test data has to be kept separate
+## This contains gallery and probe data only, test data has to be kept separate
 
 
 import os
